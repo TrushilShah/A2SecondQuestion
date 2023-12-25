@@ -14,7 +14,7 @@ public class PdfGenerator {
     public static void main(String[] args) {
         List<YourDataModel> data = fetchDataFromDatabase(); // Implement this method
         CategoryChart chart = ChartGenerator.createBarChart(data);
-        createPdfWithChart(chart, "path/to/your/output.pdf");
+        createPdfWithChart(chart, "C:\\Users\\trushil.shah\\Downloads\\Accolite_Interview_Data.pdf");
     }
 
     public static void createPdfWithChart(CategoryChart chart, String pdfFilePath) {
